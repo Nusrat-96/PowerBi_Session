@@ -1,6 +1,5 @@
 # 📘 **10-Day Power BI Training Plan (with Assignments)**
 
-### *Includes hands-on tasks + daily assignments to gradually build a full Sales Analytics Dashboard.*
 
 ---
 
@@ -24,7 +23,7 @@
 
 ---
 
-# **📅 Day 2 — Power Query & Data Cleaning**
+# **📅 Day 2 — Data Cleaning and Transformation**
 
 ### Topics:
 
@@ -67,10 +66,16 @@
 
 ### Topics:
 
-* Bar chart
-* Table
-* KPI cards
-* Stacked bar
+*  Bar / Column Chart
+*  Pie / Donut
+*  Line / Area
+*  Table / Matrix
+*  KPI cards
+*  MAP visualizations - Map (Sales by Region)
+  *  Filled map
+  *  Bubble map
+  *  Using lat/long
+*  Tooltip visuals
 
 ### **Assignment:**
 
@@ -79,27 +84,28 @@ Build a simple report with these visuals:
 * **Card:** Total Sales
 * **Bar Chart:** Sales by Category
 * **Table:** ProductName, Quantity, SalesAmount
+*  Create a **map visual**:
+   * SalesAmount by Region (Bangladesh Regions)
 
 ---
 
-# **📅 Day 5 — Map Visuals (Bangladesh-based)**
+# **📅 Day 5 — ⭐ Slicers & Explicit Filters**
 
 ### Topics:
 
-* Filled Map
-* Bubble Map
-* Lat/Long mapping
-* District/Division mapping
+* Slicer types: dropdown, list, between, date
+* Hierarchy slicer
+* Visual-level filters
+* Page-level filters
+* Report-level filters
+* Advanced filter options (contains, starts with, OR)
 
-### **Assignment:**
+**Assignment:**
 
-1. Create a **map visual**:
-
-   * SalesAmount by Region (Bangladesh Regions)
-2. If your dataset has lat/long:
-
-   * Plot shops or branches on a map
-3. Add a slicer for **District** or **Division**
+1. Add slicers: Region, Category, Year
+2. Add visual-level filter: Category = Electronics
+3. Add page-level filter: Region = Dhaka
+4. Add report-level filter: Remove blank values
 
 ---
 
@@ -124,25 +130,24 @@ Add these measures inside a **KPI section**.
 
 ---
 
-# **📅 Day 7 — Time Intelligence (DAX)**
+# **📅 Day 7 — Measures**
 
-### Topics:
+### Teach ONLY DAX Measures:
 
-* YTD Sales
-* MTD Sales
-* Previous Month Sales
-* YoY Growth
+* SUM, SUMX
+* AVERAGE
+* DISTINCTCOUNT
+* CALCULATE basics
+* Filter context vs row context (simple example)
 
-### **Assignment:**
+**Assignment:**
+Create measures:
 
-Create:
-
-1. **Sales LY**
-2. **YoY Growth %**
-3. A **line chart**:
-
-   * X-axis = Month
-   * Y-axis = SalesAmount & Sales LY
+* Total Sales
+* Total Orders
+* Total Quantity
+* Average Order Value
+* Profit %
 
 ---
 
@@ -168,47 +173,35 @@ Create a **Homepage** containing:
 
 ---
 
-# **📅 Day 9 — Power BI Service**
+## **📅 DAY 9 – Publishing + Sharing + Row-Level Security**
 
-### Topics:
+**Topics:**
 
-* Publishing
-* Workspaces
-* Scheduled refresh
-* Sharing reports
+* Publish to Power BI Service
+* Workspace creation
+* Sharing & Permissions
+* RLS (Row-Level Security)
+* Export to PDF & PPT
 
-### **Assignment:**
+**Assignment:**
 
-1. Publish your PBIX file to PowerBI Service
-2. Create a Workspace
-3. Share the report (if possible)
-
----
-
-# **📅 Day 10 - Project**
-
-### **Final Assignment (Full Dashboard):**
-
-Build a **3-page Power BI Report**:
-
-### **Page 1 — Sales Overview**
-
-* KPIs: Total Sales, Profit, YoY Growth
-* Line Chart: Sales trend
-* Donut: Sales by Category
-
-### **Page 2 — Product Insights**
-
-* Top 10 Products
-* Profit by Category
-* Table: Product Performance
-
-### **Page 3 — Bangladesh Map View**
-
-* Map: Sales by Region/District
-* Bar chart: Sales by Division
-* Slicer: Product Category
+* Publish your report
+* Create a role "Sales Executive"
+* Restrict data only to their region
 
 ---
+
+## **📅 DAY 10 – Automation**
+
+**Topics:**
+
+* Scheduled Refresh
+* Dataflows
+* Power Automate Integration
+
+  * Send email when sales drop
+  * Auto-refresh dataset
+* Parameters & Templates
+* Creating reusable Power BI project structures
 
 
