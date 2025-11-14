@@ -3,7 +3,7 @@
 
 ---
 
-# **📅 Day 1 — Introduction to Power BI**
+# **Day 1 — Introduction to Power BI**
 
 ### Topics:
 
@@ -23,7 +23,7 @@
 
 ---
 
-# **📅 Day 2 — Data Cleaning and Transformation**
+# **Day 2 — Data Cleaning and Transformation**
 
 ### Topics:
 
@@ -41,7 +41,7 @@
 
 ---
 
-# **📅 Day 3 — Data Modeling**
+# **Day 3 — Data Modeling**
 
 ### Topics:
 
@@ -62,7 +62,7 @@
 
 ---
 
-# **📅 Day 4 — Basic Visuals**
+# **Day 4 — Basic Visuals**
 
 ### Topics:
 
@@ -89,7 +89,7 @@ Build a simple report with these visuals:
 
 ---
 
-# **📅 Day 5 — ⭐ Slicers & Explicit Filters**
+# **Day 5 — ⭐ Slicers & Explicit Filters**
 
 ### Topics:
 
@@ -109,7 +109,7 @@ Build a simple report with these visuals:
 
 ---
 
-# **📅 Day 6 — DAX Basics**
+# **Day 6 — DAX Basics**
 
 ### Topics:
 
@@ -130,9 +130,7 @@ Add these measures inside a **KPI section**.
 
 ---
 
-# **📅 Day 7 — Measures**
-
-### Teach ONLY DAX Measures:
+# **Day 7 — Measures**
 
 * SUM, SUMX
 * AVERAGE
@@ -151,7 +149,7 @@ Create measures:
 
 ---
 
-# **📅 Day 8 — Professional Dashboard Design**
+# **Day 8 — Professional Dashboard Design**
 
 ### Topics:
 
@@ -173,7 +171,7 @@ Create a **Homepage** containing:
 
 ---
 
-## **📅 DAY 9 – Publishing + Sharing + Row-Level Security**
+## **DAY 9 – Publishing + Sharing + Row-Level Security**
 
 **Topics:**
 
@@ -191,7 +189,7 @@ Create a **Homepage** containing:
 
 ---
 
-## **📅 DAY 10 – Automation**
+## **DAY 10 – Automation**
 
 **Topics:**
 
